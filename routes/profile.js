@@ -24,6 +24,7 @@ router.get('/:platform/:gamertag', async (req, res) => {
             })
         }
 
+        // Original response (200) as JSON
         res.json(data)
     } catch (error) {
         console.error(error)
